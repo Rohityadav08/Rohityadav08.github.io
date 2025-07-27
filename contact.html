@@ -191,7 +191,17 @@
                                 <input type="email" id="email" class="form-control border-0 bg-light px-4" placeholder="Your Email" style="height: 55px;">
                             </div>
                             <div class="col-12">
-                                <input type="text" id="subject" class="form-control border-0 bg-light px-4" placeholder="Subject" style="height: 55px;">
+                                <select name="subject" id="subject" class="form-control border-0 bg-light px-4" style="height: 55px;">
+                                    <option value="" selected disabled>Select Subject</option>
+                                    <option value="Software Installation">Software Installation</option>
+                                    <option value="Hardware Upgrade">Hardware Upgrade</option>
+                                    <option value="Virus Removal">Virus Removal</option>
+                                    <option value="Custom PC Build">Custom PC Build</option>
+                                    <option value="CCTV Installation">CCTV Installation</option>
+                                    <option value="Computer/Laptop Format">Computer/Laptop Format</option>
+                                    <option value="Others">Others</option>
+                                </select>
+                                <!-- <input type="text" id="subject" class="form-control border-0 bg-light px-4" placeholder="Subject" style="height: 55px;"> -->
                             </div>
                             <div class="col-12">
                                 <textarea id="message" class="form-control border-0 bg-light px-4 py-3" rows="4" placeholder="Message"></textarea>
